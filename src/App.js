@@ -8,7 +8,8 @@ const FORM_ENDPOINT = "";
 
 const App = () => {
   const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     setSubmitted(true);
   };
 
@@ -110,7 +111,7 @@ const App = () => {
                 type="text"
                 id="mesg"
                 className="form-input"
-                maxLength="12"
+                maxLength="24"
                 required
                 aria-invalid="false"
               />
@@ -119,7 +120,7 @@ const App = () => {
               submit
             </button>
             <h6 className={`${submitted ? "thankyou" : "thankyou-not"}`}>
-              thankyou!
+              thank you!
             </h6>
           </form>
           <div
@@ -128,18 +129,16 @@ const App = () => {
             data-element_type="widget"
             data-widget_type="google_maps.default"
           >
-            <div class="elementor-widget-container">
-              <div class="elementor-custom-embed">
-                <iframe
-                  frameborder="0"
-                  scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3377.6224275842937!2d34.843092015486384!3d32.16048642247086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d481206422fe7%3A0x166240c30da43737!2sBen%20Yehuda%20St%2039%2C%20Hertsliya!5e0!3m2!1sen!2sil!4v1643478873505!5m2!1sen!2sil"
-                  title="הרצליה"
-                  aria-label="הרצליה"
-                ></iframe>
-              </div>
+            <div class="elementor-custom">
+              <iframe
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3377.6224275842937!2d34.843092015486384!3d32.16048642247086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d481206422fe7%3A0x166240c30da43737!2sBen%20Yehuda%20St%2039%2C%20Hertsliya!5e0!3m2!1sen!2sil!4v1643478873505!5m2!1sen!2sil"
+                title="הרצליה"
+                aria-label="הרצליה"
+              ></iframe>
             </div>
           </div>
         </p>

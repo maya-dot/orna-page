@@ -382,6 +382,6 @@ Loading
 }
 
 @media screen and (max-width: 576px) {
-  .flex-item-right, .flex-item-left {
+  main{
     flex: 60%;
   }

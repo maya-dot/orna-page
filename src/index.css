@@ -381,7 +381,3 @@ Loading
   margin-right: auto;
 }
 
-@media screen and (max-width: 576px) {
-  main{
-    flex: 60%;
-  }

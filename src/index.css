@@ -380,3 +380,9 @@ Loading
 .close-btn {
   margin-right: auto;
 }
+
+@media screen and (min-width: 576px) {
+  main {
+    max-width: 60%;
+  }
+}

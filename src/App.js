@@ -18,7 +18,7 @@ const App = () => {
   // }
 
   return (
-    <main>
+    <section className="section">
       <p className="top">
         <p className="name">
           <h3>אורנה לויט</h3>
@@ -146,7 +146,7 @@ const App = () => {
       <h4> {"\u00A9"}Orna Levit</h4>
       <h4>054-4510018 , ornalevit@gmail.com </h4>
       <h4>Ben Yehuda St 39 , Hertsliya</h4>
-    </main>
+    </section>
   );
 };
 export default App;

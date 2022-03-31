@@ -265,7 +265,7 @@ section {
 .img-item {
   margin: 1.5rem;
   border-radius: 4rem;
-  width: 20rem;
+  width: 20vw;
 }
 .big {
   background: var(--clr-grey-9);

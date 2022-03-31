@@ -132,12 +132,12 @@ p {
 }
 
 @media screen and (min-width: 992px) {
-  .section {
+  body {
     width: 95vw;
   }
 }
 @media screen and (min-width: 600px) {
-  .section {
+  body {
     width: 50vw;
   }
   .img-item {
@@ -148,7 +148,7 @@ p {
 }
   @media only screen and (min-width: 200px) {
        /* styles for mobile browsers smaller than 480px; (iPhone) */
-     .section {
+     body{
     width: 50vw;
   }
      .img-item {

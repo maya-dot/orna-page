@@ -126,7 +126,7 @@ p {
 
 /* section */
 .section {
-  width: 90vw;
+  width: 70vw;
   margin: 0 auto;
   max-width: var(--max-width);
 }

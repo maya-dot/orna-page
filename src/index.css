@@ -140,12 +140,22 @@ p {
   .section {
     width: 80vw;
   }
+  .img-item {
+  margin: 0.5rem;
+  border-radius: 2rem;
+  width: 10rem;
+}
 }
   @media only screen and (max-device-width: 480px) {
        /* styles for mobile browsers smaller than 480px; (iPhone) */
      .section {
     width: 30vw;
   }
+     .img-item {
+  margin: 0.5rem;
+  border-radius: 2rem;
+  width: 10rem;
+}
     }
 button {
   flex-grow: 3;

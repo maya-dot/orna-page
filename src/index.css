@@ -126,7 +126,7 @@ p {
 
 /* section */
 .section {
-  width: 70vw;
+  width: auto;
   margin: 0 auto;
   max-width: var(--max-width);
     display: flex;
@@ -135,14 +135,12 @@ p {
 }
 
 @media screen and (min-width: 992px) {
-  body {
-    width: 95vw;
-  }
+  .section {
+    width: auto;}
 }
 @media screen and (min-width: 600px) {
-  body {
-    width: 50vw;
-  }
+  .section {
+    width: auto;}
   .img-item {
   margin: 0.5rem;
   border-radius: 2rem;
@@ -151,9 +149,9 @@ p {
 }
   @media only screen and (min-width: 200px) {
        /* styles for mobile browsers smaller than 480px; (iPhone) */
-     body{
-    width: 50vw;
-  }
+ .section {
+    width: auto;}
+    
      .img-item {
   margin: 0.5rem;
   border-radius: 2rem;

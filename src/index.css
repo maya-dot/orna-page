@@ -138,25 +138,16 @@ p {
   .section {
     width: auto;}
 }
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .section {
-    width: auto;}
+    width: 150vw;}
   .img-item {
   margin: 0.5rem;
   border-radius: 2rem;
   width: 2vw;
 }
 }
-  @media screen and (min-width: 200px) {
- .section {
-    width: auto;}
-    
-     .img-item {
-  margin: 0.5rem;
-  border-radius: 2rem;
-  width: 2vw;
-}
-    }
+
 button {
   flex-grow: 3;
 }

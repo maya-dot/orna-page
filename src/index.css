@@ -126,7 +126,7 @@ p {
 
 /* section */
 .section {
-  width: auto;
+  width: 100%;
   margin: 0 auto;
   max-width: var(--max-width);
     display: flex;
